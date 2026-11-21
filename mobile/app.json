@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Ruang",
+    "slug": "ruang-community",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSAppTransportSecurity": {
+          "NSAllowsLocalNetworking": true
+        }
+      }
+    },
+    "android": {
+      "usesCleartextTraffic": true
+    }
+  }
+}

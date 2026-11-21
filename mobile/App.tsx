@@ -218,7 +218,7 @@ export default function App() {
           </View>
         }
         ListEmptyComponent={
-          loading ? null : (
+          loading ? undefined : (
             <View style={styles.emptyState}>
               <Text style={styles.emptyTitle}>Belum ada post</Text>
               <Text style={styles.emptyText}>Jadilah orang pertama yang berbagi cerita.</Text>
